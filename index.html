@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Převodník teploty</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Převodník teploty</h1>
+    <div class="converter">
+      <label for="temperature">Zadejte teplotu:</label>
+      <input type="number" id="temperature" placeholder="Zadejte hodnotu">
+      
+      <label for="conversionType">Typ převodu:</label>
+      <select id="conversionType">
+        <option value="cToF">Celsia → Fahrenheita</option>
+        <option value="fToC">Fahrenheita → Celsia</option>
+      </select>
+      
+      <button id="convertBtn">Převést</button>
+      <p id="result"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
